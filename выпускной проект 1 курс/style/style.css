@@ -1,0 +1,344 @@
+@font-face {
+    font-family: GRBookItalic;
+    src:url(../fonts/gotham-rounded/GothamRounded-BookItalic.otf);
+}
+@font-face {
+    font-family: GRBold;
+    src:url(../fonts/gotham-rounded/GothamRoundedBold_21016.ttf);
+}
+@font-face {
+    font-family: GRBook;
+    src:url(../fonts/gotham-rounded/GothamRoundedBook_21018.ttf);
+}
+@font-face {
+    font-family: GRMedium;
+    src:url(../fonts/gotham-rounded/GothamRoundedMedium_21022.ttf);
+}
+
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1260px;
+}
+
+.main-header {
+	background: url(../image/Background.png) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	min-height: 853px;
+}
+
+.wrapper {
+	height: 853px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 85px 150px 0 168px;
+	max-height: 130px;
+}
+
+.logo {
+	margin: 0;
+	text-decoration: none;
+	color: white;
+	font-family: GRBook;
+}
+
+h1 {
+	font-size: 31.02px;
+	letter-spacing: -1.5px;
+	color: white;
+	margin: 0;
+	font-weight: 300;
+}
+
+.logo-bold {
+	font-family: GRBold;
+}
+
+.logo-sign {
+	padding-left: 3px;
+	display: block;
+	font-size: 11.63px;
+	letter-spacing: 8px;
+}
+
+.nav-menu {
+    padding: 0;
+    margin: 0 1px 5px 0;
+    display: flex;
+}
+
+.nav-menu .nav-list {
+    list-style-type: none;
+    margin-right: 24px;
+}
+.nav-list:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+    font-family: GRMedium;
+    font-size: 14px;
+}
+.active {
+	border-top: 4px solid #4acaff;
+	padding-top: 10px;
+}
+
+.header-form-box {
+	width: 960px;
+	min-height: 211px;
+	margin: 220px auto;
+}
+
+.header-form-title {
+	font-family: GRBookItalic;
+	font-size: 55px;
+	letter-spacing: -2.7px;
+	color: white;
+	margin: 0;
+}
+
+.input-job {
+	margin-top: 41px;
+	width: 737px;
+	height: 50px;
+	border: none;
+	border-radius: 3px;
+	font-family: GRBookItalic;
+	font-size: 18px;
+	color: #e2e2e2;
+	padding-left: 20px;
+	box-shadow: 0px 4px 0px 0px #e2e2e2;
+}
+.input-search {
+	width: 140px;
+	height: 50px;
+	margin-left: 79px;
+	padding-left: 35px;
+	border: none;
+	border-radius: 3px;
+	background: url(../image/search.png) no-repeat;
+	background-position: 25px center;
+	background-color: #4acaff;
+	box-shadow: 0px 4px 0px 0px #3baedd;
+	font-family: GRBookItalic;
+	font-size: 20px;
+	color: white;
+
+}
+.input-checkbox {
+	margin: 37px 0 0 1px;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border-radius: 1px;
+	box-shadow: 0px 2px 0px 0px #e2e2e2;
+}
+.label-checkbox {
+	padding-left: 11px;
+	font-family: GRBookItalic;
+	font-size: 13px;
+	color: white;
+}
+#checkbox2 {
+	margin-left: 27px;
+}
+.header-select {
+	width: 247px;
+	height: 37px;
+	border: none;
+	border-radius: 3px;
+	margin-left: 141px;
+	padding-left: 15px;
+	background: url(../image/line.png) no-repeat;
+	background-position: 212px center;
+	background-color: #ffffff;
+	font-family: GRBook;
+	font-size: 16px;
+	color: black;
+	
+}
+.null-option {
+	font-family: GRBookItalic;
+	font-size: 13px;
+	color: grey;
+}
+
+
+.section-info {
+	min-height: 594px;
+	background-color: #f5f5f5;
+}
+.div-info {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-top: 100px;
+}
+.section-title {
+	font-family: GRBookItalic;
+	font-size: 30px;
+	margin: 0;
+}
+
+.section-title-book {
+	font-family: GRBook;
+	font-size: 45px;
+	margin: 15px 0 0 0;
+
+}
+.mini-separator {
+	margin-top: 44px;
+	margin-bottom: 31px;
+}
+.text {
+	font-family: GRBook;
+	font-size: 18px;
+	text-align: center;
+	white-space: pre;
+	margin: 0 0 0 15px;
+}
+
+.section-link {
+	text-decoration: none;
+	border: 2px solid #4acaff;
+	border-radius: 6px;
+	font-family: GRMedium;
+    font-size: 15px;
+    color: #4acaff;
+    padding: 21px 30px;
+    margin-top: 77px;
+    margin-bottom: 98px;
+    transition: .4s ease-in-out;
+}
+.section-link:hover {
+	color: #0f0d6c;
+	border-color: #0f0d6c;
+	transition: .4s ease-in-out;
+}
+.separator {
+	display: flex;
+	align-self: flex-end;
+}
+
+.section-subscription {
+	min-height: 450px;
+	background-color: #131c25;
+}
+.section-form-box {
+	height: 100%;
+}
+.section-form {
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+.section-form-title {
+	font-family: GRBook;
+    font-size: 18px;
+    color: white;
+    margin: 159px 0 0 1px;
+    font-weight: 100;
+    }
+.input-email {
+	margin-top: 34px;
+	margin-bottom: 174px;
+	font-family: GRBookItalic;
+    font-size: 14px;
+    color: white;
+    padding-left: 22px;
+    border: none;
+    border: 2px solid #4acaff;
+    height: 55px;
+    width: 364px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+.form-submit {
+	display: none;
+}
+
+.submit-label {
+	position: absolute;
+    margin-top: 235px;
+    right: 12px;
+}
+.main-footer {
+	height: 186px;
+	background-color: #f5f5f5;
+}
+.footer-div {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 150px;
+	padding-top: 65px;
+}
+.footer-address {
+	position: relative;
+}
+.footer-link {
+	text-decoration: none;
+	font-family: GRMedium;
+    font-size: 14px;
+    color: black;
+    font-style: normal;
+    margin-left: 33px;
+}
+
+.footer-text {
+	font-family: GRBook;
+    font-size: 14px;
+    color: black;
+    margin-top: 25px;
+}
+
+.footer-text-medium {
+	font-family: GRMedium;
+    font-size: 14px;
+    color: black;
+    padding-left: 3px;
+}
+
+.sprite {
+    background-image: url(../image/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-mail-icon {
+    width: 21px;
+    height: 17px;
+    background-position: -5px -5px;
+    position: absolute;
+      
+}   
+.sprite-mail-icon1 {
+    width: 16px;
+    height: 13px;
+    background-position: -5px -32px;
+    margin-right: 10px;
+}
+
+
+

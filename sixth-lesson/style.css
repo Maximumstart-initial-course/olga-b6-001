@@ -5,7 +5,9 @@
 * {
 	font-family: sans-serif;
 }
-
+body {
+	margin: 0;
+}
 .article__more {
 	text-decoration: none;
 }
