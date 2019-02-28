@@ -160,10 +160,11 @@ h1 {
 	background-color: white;
 	border-radius: 3px;
 	box-shadow: 0px 2px 0px 0px #e2e2e2;
+	cursor: pointer;
 }
-.input-checkbox:focus {
+
+.input-checkbox:checked {
 	background-color: black;
-	box-shadow: 0px 2px 0px 0px white;
 }
 .label-checkbox {
 	padding-left: 11px;
@@ -185,6 +186,7 @@ h1 {
 	font-size: 16px;
 	color: black;
 	opacity: 0;
+	cursor: pointer;
 }
 
 .label-select {
@@ -269,6 +271,8 @@ h1 {
 .separator {
 	height: 7px;
 	background: url(../image/separator_one.png);
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .section-subscription {
@@ -365,14 +369,15 @@ h1 {
     height: 17px;
     background-position: -5px -5px;
     position: absolute;
-    right: 180px;
-      
+    left: 0px;
+ 
 }   
 .sprite-mail-icon1 {
     width: 16px;
     height: 13px;
     background-position: -5px -32px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 
