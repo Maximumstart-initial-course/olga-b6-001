@@ -1,0 +1,41 @@
+.parent {
+	display: grid;
+	margin: auto;
+	grid-template-columns: repeat(5, 200px);
+	grid-template-rows: repeat(3, 100px);
+	grid-gap: 10px;
+	width: 1062px;
+	height: 341px;
+	justify-content: center;
+	align-content: center;
+	grid-template-areas: "box1 box1 box2 box3 box4"
+	                     "box5 box6 box2 box7 box8"
+	                     "box9 box10 box2 box11 box12";
+}
+
+.child-1 {grid-area: box1}
+.child-2 {grid-area: box2;}
+.child-3 {grid-area: box3;}
+.child-4 {grid-area: box4;}
+.child-5 {grid-area: box5;}
+.child-6 {grid-area: box6;}
+.child-7 {grid-area: box7;}
+.child-8 {grid-area: box8;}
+.child-9 {grid-area: box9;}
+.child-10 {grid-area: box10;}
+.child-11 {grid-area: box11;}
+.child-12 {grid-area: box12;}
+
+.child a img {
+	width: 200px;
+	height: 100px;
+}
+.parent .child-1 a img {
+	width: 410px;
+}
+.parent .child-2 a img {
+	height: 320px;
+}
+
+
+
